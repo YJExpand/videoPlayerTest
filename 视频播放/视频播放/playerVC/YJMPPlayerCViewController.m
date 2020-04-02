@@ -42,7 +42,7 @@
 - (void)dealloc
 {
     NSLog(@"%s",__func__);
-    
+    // 停止
     [self.playerController stop];
 }
 
